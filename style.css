@@ -1,0 +1,43 @@
+*{
+    box-sizing: border-box;
+    margin:0px;
+    padding:0px;
+}
+
+body{
+    font-family: 'Quicksand', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100vh;
+    color: black;
+}
+#time{
+    font-size: 8rem;
+    font-weight: 100em;
+}
+#date{
+    font-size: 2rem;
+}
+#focus{
+    color: white;
+}
+
+h1{
+   margin-bottom: 3rem;
+}
+
+h2{
+    margin-bottom: 0.5rem;
+    opacity: 0.6;
+}
+@media(max-width: 700px){
+    #time{
+        font-size: 6rem;
+    }
+}
+#date{
+    font-size: 2rem;
+}
